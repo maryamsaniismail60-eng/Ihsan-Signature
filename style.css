@@ -1,0 +1,241 @@
+*{
+    margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width:100% ;
+    background: white;
+    justify-content: space-between;
+    padding: 20px 50px ;
+    display:flex ;
+    color:orangered;
+    position:fixed;
+    top: 0;
+    left:0 ;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px 5px;
+
+}
+nav input{
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+    font-size: 16px;
+}
+.search{
+    background: gainsboro;
+    padding: 15px 3px  20px;
+    width: 35%;
+    border-radius: 30px;
+}
+.btn{
+    padding: 14px 15px;
+    border-radius:20px ;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border: none;
+}
+.Banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 40px;
+     min-height: 100vh;
+
+
+}
+.banner-content{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.banner-text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.banner-text h1{
+    font-size: 1.8rem;
+    color: orangered;
+
+}
+.banner-text p{
+    margin: 10px 0 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.btn-shop{
+    padding: 15px 30px ;
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+}
+.btn-shop svg{
+    margin-left: 20px;
+
+}
+.product{
+    padding: 50px;
+    text-align: center;
+}
+.product h2{
+    font-size: 30PX;
+    margin-bottom: 32PX;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.product-content{
+    background: white;
+    width: 230px;
+    height: 380px;
+    padding: 10 0px;
+    border-color: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+    border-radius: 10px;
+
+}
+.product-content img{
+    width: 100%;
+    border-radius: 20px;
+    height:220px;
+}
+.product-content h3{
+    margin: 10px 0;
+}
+.footer{
+    background-color: gainsboro;
+    color: white;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+
+ /*Main Footer*/
+}
+.footer-container{
+    max-width: 1250px;
+    margin: auto;
+    padding: 70px 30px 50px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.4fr;
+    gap: 60px;
+}
+.footer-brand h2{
+    font-size: 25px;
+    margin: 0 0 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+.footer-brand h2 span{
+color: orangered;
+}
+.footer-brand p{
+    color: white;
+    line-height: 1.7;
+    font-size: 14px;
+    max-width: 380px;
+}
+/*social Media*/
+.social-links{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+.social-links a{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+
+    transition: 0.3s ease;
+
+}
+.social-links a:hover {
+    background: white;
+    transform: translateY(-3px);
+}
+.footer-column h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0 0 20px;
+
+}
+/*list*/
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+.footer-column ul li a :hover {
+    color: orangered;
+    padding-left: 4px;
+}
+.news-latter{
+    display: flex;
+margin-top: 15px;
+width: 100%;
+}
+
+.news-latter input{
+    width: 100%;
+    min-width: 0;
+    padding: 13px;
+    border: 1px solid orangered;
+    color: black;
+    outline: none;
+    border-radius: 6px 0 0 6px;
+}
+.news-latter input::placeholder{
+    color: skyblue;
+}
+.news-latter input:focus{
+    border-color: orangered;
+
+}
+.news-latter button{
+    border: none;
+    padding: 13px 16px;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    cursor: painter;
+    border-radius: 0 6px 6px 0 ;
+    transition: 0.3s ease;
+}
+.news-latter button:hover{
+    background-color: orange;
+}
+
